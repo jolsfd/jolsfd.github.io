@@ -1,0 +1,30 @@
+baseURL: 'http://jolsfd.github.io/'
+languageCode: de
+title: Jolsfd
+theme: PaperMod
+
+params:
+    defaultTheme: auto
+
+    homeInfoParams:
+        Title: Hi 👋, I'm Jolsfd
+        Content: I'm a software developer with special interest in Go and Python. Check out my projects and give a 🌟 on GitHub.
+
+    socialIcons:
+        - name: "GitHub"
+          url: "https://github.com/jolsfd"
+
+    ShowCodeCopyButtons: True
+
+menu:
+    main:
+      - name: Search
+        url: search
+      - name: Archive
+        url: archives
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
